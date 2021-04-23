@@ -34,10 +34,6 @@ public class Principal {
 				line = br.readLine();
 			}
 
-			System.out.println(produtos.get(0).getTipoProduto());
-			System.out.println(produtos.get(0).getValor());
-			System.out.println(produtos.get(0).getQuantidade());
-
 			String path1 = "C:\\Users\\bruno\\Documents";
 			boolean paste = new File(path1 + "\\out").mkdir();
 			String path2 = "C:\\Users\\bruno\\Documents\\out\\summary.csv";
